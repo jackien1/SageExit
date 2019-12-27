@@ -4,7 +4,7 @@ const express = require("express");
 const bodyParser = require("body-parser");
 const mongoose = require("mongoose");
 const User = require("./models/User");
-const Schedule = require("./models/schedule");
+const Schedule = require("./models/Schedule");
 const MessagingResponse = require("twilio").twiml.MessagingResponse;
 const { MONGOOSE } = process.env;
 
