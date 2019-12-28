@@ -8,7 +8,6 @@ const User = new mongoose.Schema({
   },
   studentId: {
     type: String,
-    unique: true,
     default: ""
   },
   createdAt: {
